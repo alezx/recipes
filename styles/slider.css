@@ -1,0 +1,39 @@
+/* .slider{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.slider span{
+	margin-top: 10px;
+}
+*/
+.slider-left, .slider-right{
+	float: left;
+	width: 30px;
+	cursor: pointer;
+}
+
+#photos {
+	float: left;
+	overflow: hidden;
+	width: 900px;
+	height: 110px;
+}
+
+#photos_inner {
+	width: 2200px;
+	overflow: hidden;
+	position: relative;
+}
+
+#photos_inner img {
+	float: left;
+	width: 140px;
+	height: 100px;
+	/* height:  100px;*/
+	margin: 5px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+
